@@ -6,6 +6,6 @@ We have to simulate a phonebook with a terminal interactive UI. We can ADD or SE
 You have to implement 2 classes PhoneBook and Contact. <br>
 **PhoneBook**
 + It has an array of contacts.
-+ It can receive up to 8 contacts. If user try to add 9th contact, it will replace with 1st contact<br>
++ It can receive up to 8 contacts. If user try to add 9th contact, it will replace with 1st contact. <br>
 **Contact**
 + Stands for phonebook contact
