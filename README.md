@@ -3,6 +3,7 @@
 Namespace provide a method for preventing nameconflicts in large projects.
 The identifiers of the C++ standard library are defined in a namespace called ```std```
 In order to use any identifier belonging to the standard library, we need to specify that it belongs to the ```std``` namespace. One way to do this is using ```::``` operator.
+The other way is using directive such as ```using namespace std``` however, this one would consinder as bad practice because this way brings **all the identifiers** from ```std```namespace into global namespace, this can create name conflicts.
 # ex00 Megaphone
 This project requires you to create a program that takes arguments from user and make all capital letters. If no argument are passed, it will display default message.
 # ex01 My Awsome Phonebook
