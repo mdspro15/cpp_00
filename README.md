@@ -26,6 +26,16 @@ class Person
         year = y;
       }
 };
+
+int  main()
+{
+  Person person_obj("shosho", 1234);
+
+  cout << person_obj.name << endl;
+  cout << person_obj.year << endl;
+  return 0;
+}
+
 ```  
 # ex00 Megaphone
 This project requires you to create a program that takes arguments from user and make all capital letters. If no argument are passed, it will display default message.
