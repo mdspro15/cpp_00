@@ -12,6 +12,21 @@ This is a special method that is automatically called when an object of class is
 + It is always ```public```
 + It does not have any return value <br>
 
+**Constructor parameters** <br>
+Construtor can also take parameters which can be useful for setting initial values for attributes.
+```
+class Person
+{
+  private:
+      string name;
+      int    year;
+  public:
+      Person(string x, int y){
+        name = x;
+        year = y;
+      }
+};
+```  
 # ex00 Megaphone
 This project requires you to create a program that takes arguments from user and make all capital letters. If no argument are passed, it will display default message.
 # ex01 My Awsome Phonebook
