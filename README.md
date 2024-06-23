@@ -6,6 +6,12 @@ In order to use any identifier belonging to the standard library, we need to spe
 The other way is using directive such as ```using namespace std``` however, this one would consinder as bad practice because this way brings **all the identifiers** from ```std```namespace into global namespace, this can create name conflicts. <br>
 https://www.programiz.com/cpp-programming/std-namespace 
 
+## Constructors
+This is a special method that is automatically called when an object of class is created.
++ Use same name as class
++ It is always ```public```
++ It does not have any return value <br>
+
 # ex00 Megaphone
 This project requires you to create a program that takes arguments from user and make all capital letters. If no argument are passed, it will display default message.
 # ex01 My Awsome Phonebook
