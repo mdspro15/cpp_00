@@ -25,14 +25,17 @@ class Person
         name = x;
         year = y;
       }
+      void display(){
+      cout << name << endl;
+      cout << year << endl;
+      }
 };
 
 int  main()
 {
   Person person_obj("shosho", 1234);
 
-  cout << person_obj.name << endl;
-  cout << person_obj.year << endl;
+  person_obj.display();
   return 0;
 }
 
